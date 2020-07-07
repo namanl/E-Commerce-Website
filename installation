@@ -1,0 +1,25 @@
+INSTALLATION GUIDE LINES 
+
+1 ) GOOGLE API 
+
+Step 1) Start with a basic web page and add a “div” element.
+
+<div id="google_translate_element"></div>  
+
+Step 2) Add google translate api reference.
+
+<script type="text/javascript" src= 
+"https://translate.google.com/translate_a/element.js? 
+        cb=googleTranslateElementInit"> 
+    </script>
+
+Step 3) Add Javascript function
+
+<script type="text/javascript">  
+        function googleTranslateElementInit() {  
+            new google.translate.TranslateElement( 
+                {pageLanguage: 'en'},  
+                'google_translate_element' 
+            );  
+        }  
+    </script>
